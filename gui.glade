@@ -189,19 +189,6 @@
               </packing>
             </child>
             <child>
-              <object class="GtkButton" id="start_btn">
-                <property name="label" translatable="yes">Start</property>
-                <property name="visible">True</property>
-                <property name="can_focus">True</property>
-                <property name="receives_default">True</property>
-                <signal name="pressed" handler="onStartButtonPressed" swapped="no"/>
-              </object>
-              <packing>
-                <property name="left_attach">4</property>
-                <property name="top_attach">2</property>
-              </packing>
-            </child>
-            <child>
               <object class="GtkRadioButton" id="h_e">
                 <property name="label" translatable="yes">Hanzi to English</property>
                 <property name="visible">True</property>
@@ -223,6 +210,19 @@
               </object>
               <packing>
                 <property name="left_attach">2</property>
+                <property name="top_attach">2</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="start_btn">
+                <property name="label" translatable="yes">Start</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <signal name="pressed" handler="onStartButtonPressed" swapped="no"/>
+              </object>
+              <packing>
+                <property name="left_attach">4</property>
                 <property name="top_attach">2</property>
               </packing>
             </child>
